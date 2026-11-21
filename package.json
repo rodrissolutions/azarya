@@ -1,0 +1,27 @@
+{
+  "name": "azarya",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Plataforma multi-juego de generación, venta, sorteo y verificación (bingo y rifa).",
+  "packageManager": "pnpm@12.21.0",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=12.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.73.0"
+  }
+}
